@@ -12,6 +12,7 @@ header {
     align-items: center;
     padding: 20px 30px 10px 30px;
     margin: 0 0 30px 0;
+    background: rgb(148, 74, 177);
 }
 a {
     text-decoration: none; 
@@ -26,4 +27,13 @@ header > h1 {
     min-height: 100vh ;
     display: grid;
     grid-template-columns: 1fr 5fr;
+}
+form {
+    width: 600px;
+}
+footer {
+    background-color: rgb(202, 171, 231);
+}
+.accordion {
+    background-color: rgb(148, 74, 177)!important;
 }
